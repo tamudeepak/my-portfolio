@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mb-4">My Projects</h2>
+<div class="row g-4">
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">Project One</h5>
+                <p class="card-text">Description of project one. Technologies used: Flask, Docker, etc.</p>
+                <a href="https://github.com/yourusername/project-one" class="btn btn-primary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">Project Two</h5>
+                <p class="card-text">Description of project two. Technologies used: Flask, React, etc.</p>
+                <a href="https://github.com/yourusername/project-two" class="btn btn-primary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+    <!-- Add more project cards as needed -->
+</div>
+{% endblock %}

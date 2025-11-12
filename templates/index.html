@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row align-items-center">
+    <div class="col-md-4 text-center">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" class="img-fluid rounded-circle shadow" alt="Profile Picture">
+    </div>
+    <div class="col-md-8">
+        <h1 class="display-4">Hello, I'm Your Name</h1>
+        <p class="lead">Professional Title | Short bio describing your expertise, skills, and experience. Passionate about software development and creating meaningful projects.</p>
+        <ul class="list-unstyled">
+            <li><strong>Location:</strong> City, Country</li>
+            <li><strong>Email:</strong> your.email@example.com</li>
+            <li><strong>Phone:</strong> +123-456-7890</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

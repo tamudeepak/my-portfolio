@@ -1,0 +1,15 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+h1, h2, h3, h5 {
+    color: #343a40;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
